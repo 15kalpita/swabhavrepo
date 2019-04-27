@@ -1,0 +1,22 @@
+git
+version control/source control means storing all the previous versions.
+snapshots are commits.
+timeline is master branch.
+create a repository.
+git init //initializes repository
+git log //shows commits
+git status // if red menas changed
+git add . // to add in memory
+git status // if green then in memory
+git commit -m 'add hello.txt' // write which file u made changes in
+git status // now clean tree as all the changes made are saved
+
+git checkout 5055 // write first 5 digits of commit/hash value or else copy the entire commit
+get checkout master // to get back in master branch
+  
+push local repository to github repository for backup
+get remote -v //checks if u have github repository
+get remote add swabhav {url} // adds github repository 
+get remote -v //checks if added or not
+git push swabhav master //pushes the master branch to github repository for backup
+
